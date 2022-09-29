@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Dennis</title>
+        <style type="text/css">
+             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+             *{
+                font-family: 'Poppins', sans-serif;
+                border-radius:25px;
+                color: #003166;
+            }
+             body {
+                background: rgb(123, 133, 155);
+                color: #003166;
+                padding: 10px;
+            }
+            
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+   
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+            
+            #everything{
+                position: relative;
+                top: 15rem;
+            }
+            /* navigation menu */
+            nav {
+                background: rgb(231, 248, 255);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: #003166;
+                flex: 1;
+                margin: 0;
+                letter-spacing: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-left: 3rem;
+            }
+            #nav-ul {
+                list-style-image: none;
+                
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            li{
+                list-style-type: none;
+            }
+
+            li a{
+                text-decoration: none;
+            }
+         
+   
+            /* main container area beneath menu */
+            main {
+                background: rgb(231, 248, 255);
+                display: flex;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+        </style>
+   
+    <body id="everything">
+      <div id="all-contents">
+        <nav>
+            <h1>Maliq</h1>
+            <ul id="nav-ul">
+               <li class="nav-li">
+               <a class="nav-a" href="index.html">Home</a>
+             </li>
+             <li class="nav-li">
+               <a class="nav-a" href="portfolio.html">Portfolio</a>
+             </li>
+         </ul>
+     </nav>
+     <main>
+        <div class="content">
+            <h1>Portfolio</h1>
+            <ul id="portfolio">
+                <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
+                <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
+                <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
+            </ul>
+        </div>
+     </main>
+      </div>
+    </body>
+</html>

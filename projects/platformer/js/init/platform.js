@@ -6,6 +6,10 @@
   let platform = window.opspark.platform;
 
   /**
+   * Five platforms
+   * Three cannons
+   * Three collectibles
+   * 
    * init: This function initializes the platforms for the level.
    *
    * GOAL: Add as many platforms necessary to make your level challenging.
@@ -28,7 +32,11 @@
 
     ////////////////////////////////////////////////////////////////////////
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-
+    createPlatform(150, 250);
+    createPlatform(400, 570);
+    createPlatform(800, 320);
+    createPlatform(50, 490);
+    createPlatform(450, 400);
     /*
      * ground : here, we create a floor. Given the width of of the platform
      * asset, giving it a scaleX and scaleY of 2 will stretch it across the
@@ -36,9 +44,6 @@
      */
     createPlatform(0, game.world.height - 32, 3, 2); // DO NOT DELETE
 
-    // example:
-    createPlatform(400, 250);
-    createPlatform(170, 460, 0.5);
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
